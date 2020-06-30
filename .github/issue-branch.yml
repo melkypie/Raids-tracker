@@ -1,8 +1,5 @@
 mode: chatops
 silent: true
 branchName: 'pack-'
-branches:
-  - label: new pack
-    name: test
 experimental:
   branchNameArgument: true
