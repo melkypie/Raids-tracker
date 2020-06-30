@@ -10,10 +10,4 @@ jobs:
           uses: robvanderleek/create-issue-branch@master
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-            mode: chatops
-            silent: true
-            branchName: 'pack-'
-            experimental:
-                branchNameArgument: true
             
