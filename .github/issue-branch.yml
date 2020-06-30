@@ -1,5 +1,5 @@
 mode: chatops
 silent: false
-branchName: 'pack-'
+branchName: 'pack-${issue.title}'
 experimental:
   branchNameArgument: true
