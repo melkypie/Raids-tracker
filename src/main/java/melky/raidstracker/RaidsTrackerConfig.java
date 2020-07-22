@@ -4,16 +4,17 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("raidstracker")
+@ConfigGroup(RaidsTrackerPlugin.CONFIG_GROUP)
 public interface RaidsTrackerConfig extends Config
 {
 	@ConfigItem(
-		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		position = 0,
+		keyName = "test",
+		name = "test",
+		description = "test"
 	)
-	default String greeting()
+	default boolean test()
 	{
-		return "Hello";
+		return true;
 	}
 }
